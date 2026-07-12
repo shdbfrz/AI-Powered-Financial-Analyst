@@ -30,7 +30,7 @@ jobs:
           python-version: "3.11"
       - name: Install AI module dependencies
         run: |
-          pip install -r ai/requirements.txt
+          pip install -r ai/requirements-core.txt
       - name: Run AI module tests
         run: |
           pytest ai/tests --maxfail=1 --disable-warnings -q
