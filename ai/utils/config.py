@@ -42,8 +42,10 @@ class Settings(BaseSettings):
 
     # Storage locations (relative to project root; see storage/README.md, datasets/README.md)
     raw_data_dir: str = "datasets/raw"
+    processed_data_dir: str = "datasets/processed"
     cache_dir: str = "storage/cache"
     log_dir: str = "storage/logs"
+    eda_reports_dir: str = "storage/reports/eda"
 
     # Validation
     # Optional leading '^' supports index symbols (e.g. ^NSEI for Nifty 50,
