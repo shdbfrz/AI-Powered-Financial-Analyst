@@ -1,5 +1,3 @@
-import React from "react";
-
 /**
  * Root component. Routing (React Router) and page components will be wired
  * in here once the auth and dashboard pages are implemented (Phase 1
