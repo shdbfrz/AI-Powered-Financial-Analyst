@@ -46,6 +46,8 @@ class Settings(BaseSettings):
     cache_dir: str = "storage/cache"
     log_dir: str = "storage/logs"
     eda_reports_dir: str = "storage/reports/eda"
+    models_dir: str = "storage/models"  # trained model artifacts (Sprint 3+: ml/time_series/deep_learning subfolders)
+    ml_reports_dir: str = "storage/reports/ml"  # Sprint 3: evaluation/comparison reports + plots
 
     # Validation
     # Optional leading '^' supports index symbols (e.g. ^NSEI for Nifty 50,
