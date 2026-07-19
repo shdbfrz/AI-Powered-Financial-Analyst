@@ -1,0 +1,1 @@
+"""Model artifact persistence for `ai/models/time_series/`."""
