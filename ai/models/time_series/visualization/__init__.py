@@ -1,0 +1,1 @@
+"""Plot generation for `ai/models/time_series/` -> storage/reports/time_series/."""

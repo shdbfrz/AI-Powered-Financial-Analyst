@@ -1,0 +1,1194 @@
+[
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_arima_h1_20260718T103614Z.joblib",
+    "model_name": "arima",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T103614Z",
+    "training_date": "2026-07-18T10:36:14.385143+00:00",
+    "hyperparameters": {
+      "order": [
+        3,
+        1,
+        2
+      ],
+      "max_p": null,
+      "max_q": null,
+      "aic": 443.90035082935304
+    },
+    "test_metrics": {
+      "mae": 0.166539,
+      "mse": 0.027735,
+      "rmse": 0.166539,
+      "mape": 0.122563,
+      "smape": 0.122488,
+      "r2": null,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.166539,
+      "n_observations": 1
+    },
+    "file_size_bytes": 1553353
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_sarima_h1_20260718T103631Z.joblib",
+    "model_name": "sarima",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T103631Z",
+    "training_date": "2026-07-18T10:36:31.079346+00:00",
+    "hyperparameters": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ],
+      "aic": 402.3974600603881
+    },
+    "test_metrics": {
+      "mae": 0.348902,
+      "mse": 0.121733,
+      "rmse": 0.348902,
+      "mape": 0.256772,
+      "smape": 0.256442,
+      "r2": null,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.348902,
+      "n_observations": 1
+    },
+    "file_size_bytes": 13676651
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_exponential_smoothing_h1_20260718T103631Z.joblib",
+    "model_name": "exponential_smoothing",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T103631Z",
+    "training_date": "2026-07-18T10:36:31.264038+00:00",
+    "hyperparameters": {
+      "trend": "add",
+      "seasonal": "add",
+      "seasonal_period": null,
+      "seasonal_applied": true
+    },
+    "test_metrics": {
+      "mae": 0.351744,
+      "mse": 0.123724,
+      "rmse": 0.351744,
+      "mape": 0.258863,
+      "smape": 0.258529,
+      "r2": null,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.351744,
+      "n_observations": 1
+    },
+    "file_size_bytes": 52590
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_auto_arima_h1_20260718T103635Z.joblib",
+    "model_name": "auto_arima",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T103635Z",
+    "training_date": "2026-07-18T10:36:36.029123+00:00",
+    "hyperparameters": {
+      "seasonal_period": null,
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        2,
+        1,
+        0,
+        5
+      ],
+      "aic": 497.38055277926634
+    },
+    "test_metrics": {
+      "mae": 0.19774,
+      "mse": 0.039101,
+      "rmse": 0.19774,
+      "mape": 0.145525,
+      "smape": 0.145419,
+      "r2": null,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.19774,
+      "n_observations": 1
+    },
+    "file_size_bytes": 17624291
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_prophet_h1_20260718T103636Z.json",
+    "model_name": "prophet",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T103636Z",
+    "training_date": "2026-07-18T10:36:36.432352+00:00",
+    "hyperparameters": {
+      "seasonality_mode": "additive",
+      "changepoint_prior_scale": 0.05
+    },
+    "test_metrics": {
+      "mae": 0.734402,
+      "mse": 0.539346,
+      "rmse": 0.734402,
+      "mape": 0.540477,
+      "smape": 0.53902,
+      "r2": null,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.734402,
+      "n_observations": 1
+    },
+    "file_size_bytes": 60480
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_arima_h5_20260718T103639Z.joblib",
+    "model_name": "arima",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T103639Z",
+    "training_date": "2026-07-18T10:36:39.504667+00:00",
+    "hyperparameters": {
+      "order": [
+        3,
+        1,
+        2
+      ],
+      "max_p": null,
+      "max_q": null,
+      "aic": 443.90035082935304
+    },
+    "test_metrics": {
+      "mae": 0.224237,
+      "mse": 0.06734,
+      "rmse": 0.259499,
+      "mape": 0.163673,
+      "smape": 0.163811,
+      "r2": 0.985495,
+      "directional_accuracy": 1.0,
+      "forecast_bias": -0.120003,
+      "n_observations": 5
+    },
+    "file_size_bytes": 1553353
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_sarima_h5_20260718T103656Z.joblib",
+    "model_name": "sarima",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T103656Z",
+    "training_date": "2026-07-18T10:36:56.348288+00:00",
+    "hyperparameters": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ],
+      "aic": 402.3974600603881
+    },
+    "test_metrics": {
+      "mae": 0.407683,
+      "mse": 0.195973,
+      "rmse": 0.442688,
+      "mape": 0.301419,
+      "smape": 0.300879,
+      "r2": 0.957787,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.407683,
+      "n_observations": 5
+    },
+    "file_size_bytes": 13676651
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_exponential_smoothing_h5_20260718T103656Z.joblib",
+    "model_name": "exponential_smoothing",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T103656Z",
+    "training_date": "2026-07-18T10:36:56.534317+00:00",
+    "hyperparameters": {
+      "trend": "add",
+      "seasonal": "add",
+      "seasonal_period": null,
+      "seasonal_applied": true
+    },
+    "test_metrics": {
+      "mae": 0.376767,
+      "mse": 0.162375,
+      "rmse": 0.402958,
+      "mape": 0.278391,
+      "smape": 0.277944,
+      "r2": 0.965024,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.376767,
+      "n_observations": 5
+    },
+    "file_size_bytes": 52590
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_auto_arima_h5_20260718T103700Z.joblib",
+    "model_name": "auto_arima",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T103700Z",
+    "training_date": "2026-07-18T10:37:00.700387+00:00",
+    "hyperparameters": {
+      "seasonal_period": null,
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        2,
+        1,
+        0,
+        5
+      ],
+      "aic": 497.38055277926634
+    },
+    "test_metrics": {
+      "mae": 0.219744,
+      "mse": 0.088772,
+      "rmse": 0.297946,
+      "mape": 0.163716,
+      "smape": 0.163471,
+      "r2": 0.980878,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.197416,
+      "n_observations": 5
+    },
+    "file_size_bytes": 17624291
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_prophet_h5_20260718T103701Z.json",
+    "model_name": "prophet",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T103701Z",
+    "training_date": "2026-07-18T10:37:01.063859+00:00",
+    "hyperparameters": {
+      "seasonality_mode": "additive",
+      "changepoint_prior_scale": 0.05
+    },
+    "test_metrics": {
+      "mae": 0.722901,
+      "mse": 0.538578,
+      "rmse": 0.733878,
+      "mape": 0.532572,
+      "smape": 0.531107,
+      "r2": 0.88399,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.722901,
+      "n_observations": 5
+    },
+    "file_size_bytes": 60480
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_arima_h1_20260718T192442Z.joblib",
+    "model_name": "arima",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T192442Z",
+    "training_date": "2026-07-18T19:24:42.090956+00:00",
+    "hyperparameters": {
+      "order": [
+        3,
+        1,
+        2
+      ],
+      "max_p": null,
+      "max_q": null,
+      "aic": 443.90035082935304
+    },
+    "test_metrics": {
+      "mae": 0.166539,
+      "mse": 0.027735,
+      "rmse": 0.166539,
+      "mape": 0.122563,
+      "smape": 0.122488,
+      "r2": null,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.166539,
+      "n_observations": 1
+    },
+    "file_size_bytes": 1553353
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_sarima_h1_20260718T192515Z.joblib",
+    "model_name": "sarima",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T192515Z",
+    "training_date": "2026-07-18T19:25:15.346924+00:00",
+    "hyperparameters": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ],
+      "aic": 402.3974600603881
+    },
+    "test_metrics": {
+      "mae": 0.348902,
+      "mse": 0.121733,
+      "rmse": 0.348902,
+      "mape": 0.256772,
+      "smape": 0.256442,
+      "r2": null  ,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.348902,
+      "n_observations": 1
+    },
+    "file_size_bytes": 13676651
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_exponential_smoothing_h1_20260718T192515Z.joblib",
+    "model_name": "exponential_smoothing",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T192515Z",
+    "training_date": "2026-07-18T19:25:15.649317+00:00",
+    "hyperparameters": {
+      "trend": "add",
+      "seasonal": "add",
+      "seasonal_period": null,
+      "seasonal_applied": true
+    },
+    "test_metrics": {
+      "mae": 0.351744,
+      "mse": 0.123724,
+      "rmse": 0.351744,
+      "mape": 0.258863,
+      "smape": 0.258529,
+      "r2": null  ,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.351744,
+      "n_observations": 1
+    },
+    "file_size_bytes": 52590
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_auto_arima_h1_20260718T192525Z.joblib",
+    "model_name": "auto_arima",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T192525Z",
+    "training_date": "2026-07-18T19:25:25.321689+00:00",
+    "hyperparameters": {
+      "seasonal_period": null,
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        2,
+        1,
+        0,
+        5
+      ],
+      "aic": 497.38055277926634
+    },
+    "test_metrics": {
+      "mae": 0.19774,
+      "mse": 0.039101,
+      "rmse": 0.19774,
+      "mape": 0.145525,
+      "smape": 0.145419,
+      "r2": null  ,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.19774,
+      "n_observations": 1
+    },
+    "file_size_bytes": 17624275
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_prophet_h1_20260718T192526Z.json",
+    "model_name": "prophet",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T192526Z",
+    "training_date": "2026-07-18T19:25:26.332204+00:00",
+    "hyperparameters": {
+      "seasonality_mode": "additive",
+      "changepoint_prior_scale": 0.05
+    },
+    "test_metrics": {
+      "mae": 0.734402,
+      "mse": 0.539346,
+      "rmse": 0.734402,
+      "mape": 0.540477,
+      "smape": 0.53902,
+      "r2": null    ,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.734402,
+      "n_observations": 1
+    },
+    "file_size_bytes": 60480
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_arima_h3_20260718T192531Z.joblib",
+    "model_name": "arima",
+    "ticker": "TEST",
+    "horizon_days": 3,
+    "version": "20260718T192531Z",
+    "training_date": "2026-07-18T19:25:31.771491+00:00",
+    "hyperparameters": {
+      "order": [
+        3,
+        1,
+        2
+      ],
+      "max_p": null,
+      "max_q": null,
+      "aic": 443.90035082935304
+    },
+    "test_metrics": {
+      "mae": 0.292022,
+      "mse": 0.101677,
+      "rmse": 0.318868,
+      "mape": 0.211789,
+      "smape": 0.212006,
+      "r2": 0.938685,
+      "directional_accuracy": 1.0,
+      "forecast_bias": -0.180995,
+      "n_observations": 3
+    },
+    "file_size_bytes": 1553353
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_sarima_h3_20260718T192604Z.joblib",
+    "model_name": "sarima",
+    "ticker": "TEST",
+    "horizon_days": 3,
+    "version": "20260718T192604Z",
+    "training_date": "2026-07-18T19:26:04.244571+00:00",
+    "hyperparameters": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ],
+      "aic": 402.3974600603881
+    },
+    "test_metrics": {
+      "mae": 0.285508,
+      "mse": 0.085235,
+      "rmse": 0.29195,
+      "mape": 0.207683,
+      "smape": 0.207457,
+      "r2": 0.9486,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.285508,
+      "n_observations": 3
+    },
+    "file_size_bytes": 13676651
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_exponential_smoothing_h3_20260718T192604Z.joblib",
+    "model_name": "exponential_smoothing",
+    "ticker": "TEST",
+    "horizon_days": 3,
+    "version": "20260718T192604Z",
+    "training_date": "2026-07-18T19:26:04.552899+00:00",
+    "hyperparameters": {
+      "trend": "add",
+      "seasonal": "add",
+      "seasonal_period": null,
+      "seasonal_applied": true
+    },
+    "test_metrics": {
+      "mae": 0.279485,
+      "mse": 0.082372,
+      "rmse": 0.287005,
+      "mape": 0.203348,
+      "smape": 0.20313,
+      "r2": 0.950327,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.279485,
+      "n_observations": 3
+    },
+    "file_size_bytes": 52590
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_auto_arima_h3_20260718T192612Z.joblib",
+    "model_name": "auto_arima",
+    "ticker": "TEST",
+    "horizon_days": 3,
+    "version": "20260718T192612Z",
+    "training_date": "2026-07-18T19:26:12.425163+00:00",
+    "hyperparameters": {
+      "seasonal_period": null,
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        2,
+        1,
+        0,
+        5
+      ],
+      "aic": 497.38055277926634
+    },
+    "test_metrics": {
+      "mae": 0.08452,
+      "mse": 0.013966,
+      "rmse": 0.11818,
+      "mape": 0.061981,
+      "smape": 0.061948,
+      "r2": 0.991578,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.047306,
+      "n_observations": 3
+    },
+    "file_size_bytes": 17624275
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_prophet_h3_20260718T192612Z.json",
+    "model_name": "prophet",
+    "ticker": "TEST",
+    "horizon_days": 3,
+    "version": "20260718T192612Z",
+    "training_date": "2026-07-18T19:26:12.972758+00:00",
+    "hyperparameters": {
+      "seasonality_mode": "additive",
+      "changepoint_prior_scale": 0.05
+    },
+    "test_metrics": {
+      "mae": 0.644277,
+      "mse": 0.421415,
+      "rmse": 0.649165,
+      "mape": 0.468495,
+      "smape": 0.467382,
+      "r2": 0.745871,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.644277,
+      "n_observations": 3
+    },
+    "file_size_bytes": 60480
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_arima_h5_20260718T192618Z.joblib",
+    "model_name": "arima",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T192618Z",
+    "training_date": "2026-07-18T19:26:18.526599+00:00",
+    "hyperparameters": {
+      "order": [
+        3,
+        1,
+        2
+      ],
+      "max_p": null,
+      "max_q": null,
+      "aic": 443.90035082935304
+    },
+    "test_metrics": {
+      "mae": 0.224237,
+      "mse": 0.06734,
+      "rmse": 0.259499,
+      "mape": 0.163673,
+      "smape": 0.163811,
+      "r2": 0.985495,
+      "directional_accuracy": 1.0,
+      "forecast_bias": -0.120003,
+      "n_observations": 5
+    },
+    "file_size_bytes": 1553353
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_sarima_h5_20260718T192651Z.joblib",
+    "model_name": "sarima",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T192651Z",
+    "training_date": "2026-07-18T19:26:51.572318+00:00",
+    "hyperparameters": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ],
+      "aic": 402.3974600603881
+    },
+    "test_metrics": {
+      "mae": 0.407683,
+      "mse": 0.195973,
+      "rmse": 0.442688,
+      "mape": 0.301419,
+      "smape": 0.300879,
+      "r2": 0.957787,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.407683,
+      "n_observations": 5
+    },
+    "file_size_bytes": 13676651
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_exponential_smoothing_h5_20260718T192651Z.joblib",
+    "model_name": "exponential_smoothing",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T192651Z",
+    "training_date": "2026-07-18T19:26:51.848118+00:00",
+    "hyperparameters": {
+      "trend": "add",
+      "seasonal": "add",
+      "seasonal_period": null,
+      "seasonal_applied": true
+    },
+    "test_metrics": {
+      "mae": 0.376767,
+      "mse": 0.162375,
+      "rmse": 0.402958,
+      "mape": 0.278391,
+      "smape": 0.277944,
+      "r2": 0.965024,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.376767,
+      "n_observations": 5
+    },
+    "file_size_bytes": 52590
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_auto_arima_h5_20260718T192659Z.joblib",
+    "model_name": "auto_arima",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T192659Z",
+    "training_date": "2026-07-18T19:26:59.680870+00:00",
+    "hyperparameters": {
+      "seasonal_period": null,
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        2,
+        1,
+        0,
+        5
+      ],
+      "aic": 497.38055277926634
+    },
+    "test_metrics": {
+      "mae": 0.219744,
+      "mse": 0.088772,
+      "rmse": 0.297946,
+      "mape": 0.163716,
+      "smape": 0.163471,
+      "r2": 0.980878,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.197416,
+      "n_observations": 5
+    },
+    "file_size_bytes": 17624275
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_prophet_h5_20260718T192700Z.json",
+    "model_name": "prophet",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T192700Z",
+    "training_date": "2026-07-18T19:27:00.213160+00:00",
+    "hyperparameters": {
+      "seasonality_mode": "additive",
+      "changepoint_prior_scale": 0.05
+    },
+    "test_metrics": {
+      "mae": 0.722901,
+      "mse": 0.538578,
+      "rmse": 0.733878,
+      "mape": 0.532572,
+      "smape": 0.531107,
+      "r2": 0.88399,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.722901,
+      "n_observations": 5
+    },
+    "file_size_bytes": 60480
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_arima_h1_20260718T192718Z.joblib",
+    "model_name": "arima",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T192718Z",
+    "training_date": "2026-07-18T19:27:18.226636+00:00",
+    "hyperparameters": {
+      "order": [
+        3,
+        1,
+        2
+      ],
+      "max_p": null,
+      "max_q": null,
+      "aic": 443.90035082935304
+    },
+    "test_metrics": {
+      "mae": 0.166539,
+      "mse": 0.027735,
+      "rmse": 0.166539,
+      "mape": 0.122563,
+      "smape": 0.122488,
+      "r2": null,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.166539,
+      "n_observations": 1
+    },
+    "file_size_bytes": 1553353
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_sarima_h1_20260718T192752Z.joblib",
+    "model_name": "sarima",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T192752Z",
+    "training_date": "2026-07-18T19:27:52.259317+00:00",
+    "hyperparameters": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ],
+      "aic": 402.3974600603881
+    },
+    "test_metrics": {
+      "mae": 0.348902,
+      "mse": 0.121733,
+      "rmse": 0.348902,
+      "mape": 0.256772,
+      "smape": 0.256442,
+      "r2": null,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.348902,
+      "n_observations": 1
+    },
+    "file_size_bytes": 13676651
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_exponential_smoothing_h1_20260718T192752Z.joblib",
+    "model_name": "exponential_smoothing",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T192752Z",
+    "training_date": "2026-07-18T19:27:52.558736+00:00",
+    "hyperparameters": {
+      "trend": "add",
+      "seasonal": "add",
+      "seasonal_period": null,
+      "seasonal_applied": true
+    },
+    "test_metrics": {
+      "mae": 0.351744,
+      "mse": 0.123724,
+      "rmse": 0.351744,
+      "mape": 0.258863,
+      "smape": 0.258529,
+      "r2": null,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.351744,
+      "n_observations": 1
+    },
+    "file_size_bytes": 52590
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_auto_arima_h1_20260718T192800Z.joblib",
+    "model_name": "auto_arima",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T192800Z",
+    "training_date": "2026-07-18T19:28:00.697736+00:00",
+    "hyperparameters": {
+      "seasonal_period": null,
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        2,
+        1,
+        0,
+        5
+      ],
+      "aic": 497.38055277926634
+    },
+    "test_metrics": {
+      "mae": 0.19774,
+      "mse": 0.039101,
+      "rmse": 0.19774,
+      "mape": 0.145525,
+      "smape": 0.145419,
+      "r2": null,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.19774,
+      "n_observations": 1
+    },
+    "file_size_bytes": 17624291
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_prophet_h1_20260718T192801Z.json",
+    "model_name": "prophet",
+    "ticker": "TEST",
+    "horizon_days": 1,
+    "version": "20260718T192801Z",
+    "training_date": "2026-07-18T19:28:01.320722+00:00",
+    "hyperparameters": {
+      "seasonality_mode": "additive",
+      "changepoint_prior_scale": 0.05
+    },
+    "test_metrics": {
+      "mae": 0.734402,
+      "mse": 0.539346,
+      "rmse": 0.734402,
+      "mape": 0.540477,
+      "smape": 0.53902,
+      "r2": null,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.734402,
+      "n_observations": 1
+    },
+    "file_size_bytes": 60480
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_arima_h3_20260718T192806Z.joblib",
+    "model_name": "arima",
+    "ticker": "TEST",
+    "horizon_days": 3,
+    "version": "20260718T192806Z",
+    "training_date": "2026-07-18T19:28:06.980180+00:00",
+    "hyperparameters": {
+      "order": [
+        3,
+        1,
+        2
+      ],
+      "max_p": null,
+      "max_q": null,
+      "aic": 443.90035082935304
+    },
+    "test_metrics": {
+      "mae": 0.292022,
+      "mse": 0.101677,
+      "rmse": 0.318868,
+      "mape": 0.211789,
+      "smape": 0.212006,
+      "r2": 0.938685,
+      "directional_accuracy": 1.0,
+      "forecast_bias": -0.180995,
+      "n_observations": 3
+    },
+    "file_size_bytes": 1553353
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_sarima_h3_20260718T192839Z.joblib",
+    "model_name": "sarima",
+    "ticker": "TEST",
+    "horizon_days": 3,
+    "version": "20260718T192839Z",
+    "training_date": "2026-07-18T19:28:39.665037+00:00",
+    "hyperparameters": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ],
+      "aic": 402.3974600603881
+    },
+    "test_metrics": {
+      "mae": 0.285508,
+      "mse": 0.085235,
+      "rmse": 0.29195,
+      "mape": 0.207683,
+      "smape": 0.207457,
+      "r2": 0.9486,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.285508,
+      "n_observations": 3
+    },
+    "file_size_bytes": 13676651
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_exponential_smoothing_h3_20260718T192839Z.joblib",
+    "model_name": "exponential_smoothing",
+    "ticker": "TEST",
+    "horizon_days": 3,
+    "version": "20260718T192839Z",
+    "training_date": "2026-07-18T19:28:39.960179+00:00",
+    "hyperparameters": {
+      "trend": "add",
+      "seasonal": "add",
+      "seasonal_period": null,
+      "seasonal_applied": true
+    },
+    "test_metrics": {
+      "mae": 0.279485,
+      "mse": 0.082372,
+      "rmse": 0.287005,
+      "mape": 0.203348,
+      "smape": 0.20313,
+      "r2": 0.950327,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.279485,
+      "n_observations": 3
+    },
+    "file_size_bytes": 52590
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_auto_arima_h3_20260718T192847Z.joblib",
+    "model_name": "auto_arima",
+    "ticker": "TEST",
+    "horizon_days": 3,
+    "version": "20260718T192847Z",
+    "training_date": "2026-07-18T19:28:48.200091+00:00",
+    "hyperparameters": {
+      "seasonal_period": null,
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        2,
+        1,
+        0,
+        5
+      ],
+      "aic": 497.38055277926634
+    },
+    "test_metrics": {
+      "mae": 0.08452,
+      "mse": 0.013966,
+      "rmse": 0.11818,
+      "mape": 0.061981,
+      "smape": 0.061948,
+      "r2": 0.991578,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.047306,
+      "n_observations": 3
+    },
+    "file_size_bytes": 17624291
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_prophet_h3_20260718T192848Z.json",
+    "model_name": "prophet",
+    "ticker": "TEST",
+    "horizon_days": 3,
+    "version": "20260718T192848Z",
+    "training_date": "2026-07-18T19:28:48.703801+00:00",
+    "hyperparameters": {
+      "seasonality_mode": "additive",
+      "changepoint_prior_scale": 0.05
+    },
+    "test_metrics": {
+      "mae": 0.644277,
+      "mse": 0.421415,
+      "rmse": 0.649165,
+      "mape": 0.468495,
+      "smape": 0.467382,
+      "r2": 0.745871,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.644277,
+      "n_observations": 3
+    },
+    "file_size_bytes": 60480
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_arima_h5_20260718T192854Z.joblib",
+    "model_name": "arima",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T192854Z",
+    "training_date": "2026-07-18T19:28:54.047676+00:00",
+    "hyperparameters": {
+      "order": [
+        3,
+        1,
+        2
+      ],
+      "max_p": null,
+      "max_q": null,
+      "aic": 443.90035082935304
+    },
+    "test_metrics": {
+      "mae": 0.224237,
+      "mse": 0.06734,
+      "rmse": 0.259499,
+      "mape": 0.163673,
+      "smape": 0.163811,
+      "r2": 0.985495,
+      "directional_accuracy": 1.0,
+      "forecast_bias": -0.120003,
+      "n_observations": 5
+    },
+    "file_size_bytes": 1553353
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_sarima_h5_20260718T192927Z.joblib",
+    "model_name": "sarima",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T192927Z",
+    "training_date": "2026-07-18T19:29:27.637553+00:00",
+    "hyperparameters": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ],
+      "aic": 402.3974600603881
+    },
+    "test_metrics": {
+      "mae": 0.407683,
+      "mse": 0.195973,
+      "rmse": 0.442688,
+      "mape": 0.301419,
+      "smape": 0.300879,
+      "r2": 0.957787,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.407683,
+      "n_observations": 5
+    },
+    "file_size_bytes": 13676651
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_exponential_smoothing_h5_20260718T192927Z.joblib",
+    "model_name": "exponential_smoothing",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T192927Z",
+    "training_date": "2026-07-18T19:29:27.932986+00:00",
+    "hyperparameters": {
+      "trend": "add",
+      "seasonal": "add",
+      "seasonal_period": null,
+      "seasonal_applied": true
+    },
+    "test_metrics": {
+      "mae": 0.376767,
+      "mse": 0.162375,
+      "rmse": 0.402958,
+      "mape": 0.278391,
+      "smape": 0.277944,
+      "r2": 0.965024,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.376767,
+      "n_observations": 5
+    },
+    "file_size_bytes": 52590
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_auto_arima_h5_20260718T192935Z.joblib",
+    "model_name": "auto_arima",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T192935Z",
+    "training_date": "2026-07-18T19:29:35.960918+00:00",
+    "hyperparameters": {
+      "seasonal_period": null,
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        2,
+        1,
+        0,
+        5
+      ],
+      "aic": 497.38055277926634
+    },
+    "test_metrics": {
+      "mae": 0.219744,
+      "mse": 0.088772,
+      "rmse": 0.297946,
+      "mape": 0.163716,
+      "smape": 0.163471,
+      "r2": 0.980878,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.197416,
+      "n_observations": 5
+    },
+    "file_size_bytes": 17624291
+  },
+  {
+    "path": "/home/claude/repo/storage/models/time_series/TEST_prophet_h5_20260718T192936Z.json",
+    "model_name": "prophet",
+    "ticker": "TEST",
+    "horizon_days": 5,
+    "version": "20260718T192936Z",
+    "training_date": "2026-07-18T19:29:36.509330+00:00",
+    "hyperparameters": {
+      "seasonality_mode": "additive",
+      "changepoint_prior_scale": 0.05
+    },
+    "test_metrics": {
+      "mae": 0.722901,
+      "mse": 0.538578,
+      "rmse": 0.733878,
+      "mape": 0.532572,
+      "smape": 0.531107,
+      "r2": 0.88399,
+      "directional_accuracy": 1.0,
+      "forecast_bias": 0.722901,
+      "n_observations": 5
+    },
+    "file_size_bytes": 60480
+  }
+]

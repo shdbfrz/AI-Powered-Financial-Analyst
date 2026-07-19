@@ -1,0 +1,211 @@
+Importing plotly failed. Interactive plots will not work.
+
+=== Sprint 4 Time Series Pipeline Demo — TEST ===
+
+Available models in this environment: ['arima', 'sarima', 'exponential_smoothing', 'auto_arima', 'prophet']
+2026-07-18 19:27:12 | INFO     | ai.models.time_series.pipelines.training_pipeline | time series pipeline started
+2026-07-18 19:27:12 | INFO     | ai.models.time_series.data_loader | loading processed dataset
+2026-07-18 19:27:12 | INFO     | ai.models.time_series.data_loader | price series loaded
+2026-07-18 19:27:12 | INFO     | ai.models.time_series.splitting | time series split complete
+2026-07-18 19:27:12 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:27:12 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:27:12 | INFO     | ai.models.time_series.pipelines.training_pipeline | models available for this run
+2026-07-18 19:27:12 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:27:12 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:27:12 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:27:14 | INFO     | ai.models.time_series.models.base | ARIMA order selected by AIC grid search
+2026-07-18 19:27:15 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:27:15 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:27:15 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:27:15 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:27:15 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:27:17 | INFO     | ai.models.time_series.models.base | ARIMA order selected by AIC grid search
+2026-07-18 19:27:18 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:27:18 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:27:18 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:27:18 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:27:18 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:27:18 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:27:34 | INFO     | ai.models.time_series.models.base | SARIMA order selected by AIC grid search
+2026-07-18 19:27:34 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:27:34 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:27:34 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:27:34 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:27:34 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.models.base | SARIMA order selected by AIC grid search
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:27:52 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:27:56 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:27:56 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:27:56 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:00 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:00 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:00 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:28:00 | INFO     | ai.models.time_series.models.base | fitting model
+19:28:00 - cmdstanpy - INFO - Chain [1] start processing
+19:28:00 - cmdstanpy - INFO - Chain [1] done processing
+2026-07-18 19:28:00 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:00 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:00 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:01 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:01 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:01 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:28:01 | INFO     | ai.models.time_series.evaluation.comparator | model comparison complete
+2026-07-18 19:28:01 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:01 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:01 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:03 | INFO     | ai.models.time_series.models.base | ARIMA order selected by AIC grid search
+2026-07-18 19:28:04 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:04 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:04 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:04 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:04 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:06 | INFO     | ai.models.time_series.models.base | ARIMA order selected by AIC grid search
+2026-07-18 19:28:06 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:06 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:06 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:28:06 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:06 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:07 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:21 | INFO     | ai.models.time_series.models.base | SARIMA order selected by AIC grid search
+2026-07-18 19:28:21 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:21 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:21 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:22 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:22 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.models.base | SARIMA order selected by AIC grid search
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:28:39 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:44 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:44 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:44 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:47 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:47 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.evaluation.comparator | model comparison complete
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:48 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:50 | INFO     | ai.models.time_series.models.base | ARIMA order selected by AIC grid search
+2026-07-18 19:28:51 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:51 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:51 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:51 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:51 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:53 | INFO     | ai.models.time_series.models.base | ARIMA order selected by AIC grid search
+2026-07-18 19:28:53 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:28:53 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:28:54 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:28:54 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:28:54 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:28:54 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:29:09 | INFO     | ai.models.time_series.models.base | SARIMA order selected by AIC grid search
+2026-07-18 19:29:09 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:29:09 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:29:09 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:29:09 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:29:09 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.models.base | SARIMA order selected by AIC grid search
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:29:27 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:29:31 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:29:31 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:29:31 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:29:35 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:29:35 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:29:35 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:29:35 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:29:36 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:29:36 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:29:36 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:29:36 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:29:36 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:29:36 | INFO     | ai.models.time_series.persistence.model_storage | model artifact saved
+2026-07-18 19:29:36 | INFO     | ai.models.time_series.evaluation.comparator | model comparison complete
+2026-07-18 19:29:36 | INFO     | ai.models.time_series.pipelines.training_pipeline | time series pipeline complete
+
+Stationarity verdict (train split): non_stationary
+Recommended differencing order (d): 1
+Detected seasonal period (m): 5
+
+--- 1-Day Horizon: Model Comparison ---
+ rank            model_name      family  test_rmse  test_mae  test_mape  test_directional_accuracy
+    1                 arima time_series   0.166539  0.166539   0.122563                        1.0
+    2            auto_arima time_series   0.197740  0.197740   0.145525                        1.0
+    3                sarima time_series   0.348902  0.348902   0.256772                        1.0
+    4 exponential_smoothing time_series   0.351744  0.351744   0.258863                        1.0
+    5               prophet time_series   0.734402  0.734402   0.540477                        1.0
+
+For the 1-day horizon, **arima** (time_series) ranks best on rmse (0.1665), with a directional accuracy of 100.00%.
+
+--- 3-Day Horizon: Model Comparison ---
+ rank            model_name      family  test_rmse  test_mae  test_mape  test_directional_accuracy
+    1            auto_arima time_series   0.118180  0.084520   0.061981                        1.0
+    2 exponential_smoothing time_series   0.287005  0.279485   0.203348                        1.0
+    3                sarima time_series   0.291950  0.285508   0.207683                        1.0
+    4                 arima time_series   0.318868  0.292022   0.211789                        1.0
+    5               prophet time_series   0.649165  0.644277   0.468495                        1.0
+
+For the 3-day horizon, **auto_arima** (time_series) ranks best on rmse (0.1182), with a directional accuracy of 100.00%.
+
+--- 5-Day Horizon: Model Comparison ---
+ rank            model_name      family  test_rmse  test_mae  test_mape  test_directional_accuracy
+    1                 arima time_series   0.259499  0.224237   0.163673                        1.0
+    2            auto_arima time_series   0.297946  0.219744   0.163716                        1.0
+    3 exponential_smoothing time_series   0.402958  0.376767   0.278391                        1.0
+    4                sarima time_series   0.442688  0.407683   0.301419                        1.0
+    5               prophet time_series   0.733878  0.722901   0.532572                        1.0
+
+For the 5-day horizon, **arima** (time_series) ranks best on rmse (0.2595), with a directional accuracy of 100.00%.
+
+Generating plots for best model: arima (horizon=1)
+2026-07-18 19:29:36 | INFO     | ai.models.time_series.models.base | fitting model
+2026-07-18 19:29:36 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:29:36 | INFO     | ai.models.time_series.stationarity | stationarity test complete
+2026-07-18 19:29:38 | INFO     | ai.models.time_series.models.base | ARIMA order selected by AIC grid search
+2026-07-18 19:29:39 | INFO     | ai.models.time_series.models.base | model fit complete
+2026-07-18 19:29:39 | INFO     | ai.models.time_series.models.base | forecast generated
+2026-07-18 19:29:39 | INFO     | ai.models.time_series.visualization.plots | plot saved
+2026-07-18 19:29:39 | INFO     | ai.models.time_series.visualization.plots | plot saved
+2026-07-18 19:29:41 | INFO     | ai.models.time_series.visualization.plots | plot saved
+2026-07-18 19:29:41 | INFO     | ai.models.time_series.visualization.plots | plot saved
+2026-07-18 19:29:41 | INFO     | ai.models.time_series.visualization.plots | plot saved
+Plots saved under storage/reports/time_series/
+
+Model artifacts saved under storage/models/time_series/
+
+=== Demo complete ===
