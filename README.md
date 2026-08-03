@@ -1,4 +1,4 @@
-# Welcome
+# Welcome the Repo (Guide)
 currently working on 
 feature/ai branch 
 then feature/backend branch 
