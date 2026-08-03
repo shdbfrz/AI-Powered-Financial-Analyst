@@ -12,7 +12,7 @@ This repository is currently under active development.
 
 > **Note:** The `main` branch does not contain the latest project files yet.
 
-📂 The latest code is available in the **`develop`** branch.
+The latest code is available in the `develop` branch.
 
 Please switch to the `develop` branch to explore the current implementation.
 
