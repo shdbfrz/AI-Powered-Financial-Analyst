@@ -6,7 +6,7 @@ Currently working on:
 
 All project information (Docs, SRS, PRD, MVP, and skeleton) is available in the `develop` branch.
 
-# 🚧 Under Development
+## Under Development
 
 This repository is currently under active development.
 
