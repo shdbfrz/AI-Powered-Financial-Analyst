@@ -4,7 +4,7 @@ Currently working on:
 - `feature/backend`
 - `feature/frontend`
 
-All project information (Docs, SRS, PRD, MVP, and skeleton) is available in the `develop` branch.
+All project information (Docs, SRS, PRD, MVP, and skeleton) is available in the `develop` branch. 
 
 ## Under Development
 
