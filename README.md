@@ -7,7 +7,6 @@ Currently working on:
 All project information (Docs, SRS, PRD, MVP, and skeleton) is available in the `develop` branch.
 
 ## Under Development
- 
 This repository is currently under active development.
 
 > **Note:** The `main` branch does not contain the latest project files yet.
