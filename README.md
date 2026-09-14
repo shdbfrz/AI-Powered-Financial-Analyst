@@ -1,5 +1,5 @@
 # Welcome
-Currently working on:
+Currently working on: 
 - `feature/ai`
 - `feature/backend`
 - `feature/frontend`
